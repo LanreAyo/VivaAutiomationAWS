@@ -1,0 +1,119 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 50, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 1,642.082 s <<< FAILURE! - in TestSuite
+MakeSuccessfulPayment(PaymentPageTest)  Time elapsed: 84.648 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: input[value='Go to your account'] (tried for 20 second(s) with 5 milliseconds interval)
+	at PaymentPageTest.MakeSuccessfulPayment(PaymentPageTest.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: input[value='Go to your account']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: unknown
+	at PaymentPageTest.MakeSuccessfulPayment(PaymentPageTest.java:27)
+
+GetUserStatusNotFound(VerificationTest)  Time elapsed: 0.546 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+	at VerificationTest.GetUserStatusNotFound(VerificationTest.java:124)
+
+GetUserStatus_CountryMissing(VerificationTest)  Time elapsed: 0.897 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.GetUserStatus_CountryMissing(VerificationTest.java:102)
+
+SetUserInvalid_MissingStatus(VerificationTest)  Time elapsed: 0.561 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.SetUserInvalid_MissingStatus(VerificationTest.java:191)
+
+SetUserInvalid_MissingToken(VerificationTest)  Time elapsed: 0.251 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.SetUserInvalid_MissingToken(VerificationTest.java:206)
+
+SetUserInvalid_token(VerificationTest)  Time elapsed: 0.537 s  <<< FAILURE!
+java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.SetUserInvalid_token(VerificationTest.java:228)
+
+SetUserStatus(VerificationTest)  Time elapsed: 0.533 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [403]
+	at VerificationTest.SetUserStatus(VerificationTest.java:170)
+
+logInWithARegisteredAccount(LoginTest)  Time elapsed: 21.25 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43257}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: a6995bfd2bbe01dcc403ed7b1a1...}
+Session ID: a6995bfd2bbe01dcc403ed7b1a1a9ec0
+*** Element info: {Using=id, value=email}
+	at LoginTest.logInWithARegisteredAccount(LoginTest.java:40)
+
+PopulateProfessionalProfileFields(MyAccountTest)  Time elapsed: 14.79 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"company_name"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:44981}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 4de4d01a3fb7e5c0de38f7f22a5...}
+Session ID: 4de4d01a3fb7e5c0de38f7f22a5623ab
+*** Element info: {Using=name, value=company_name}
+	at MyAccountTest.PopulateProfessionalProfileFields(MyAccountTest.java:67)
+
+UnableToUpdateAProfessionalProfileWithoutRequiredFields(MyAccountTest)  Time elapsed: 25.862 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:45629}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: b03eacb1ef23e9634fa6bff798b...}
+Session ID: b03eacb1ef23e9634fa6bff798bc3b33
+*** Element info: {Using=id, value=email}
+	at MyAccountTest.UnableToUpdateAProfessionalProfileWithoutRequiredFields(MyAccountTest.java:141)
+
+UnableToUpdateAnIndividualProfileWithoutRequiredFields(MyAccountTest)  Time elapsed: 27.649 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:45451}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 3d1bf1a00ca9cf22d69220fc0c1...}
+Session ID: 3d1bf1a00ca9cf22d69220fc0c1ad919
+*** Element info: {Using=id, value=email}
+	at MyAccountTest.UnableToUpdateAnIndividualProfileWithoutRequiredFields(MyAccountTest.java:106)
+
+DeleteAlertSuccessfully(CreateAlertTest)  Time elapsed: 26.385 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (849fa78cae8536b31fb6f318b4ef5bdd)] -> id: lb_alert_close_success] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:37351}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 849fa78cae8536b31fb6f318b4e...}
+Session ID: 849fa78cae8536b31fb6f318b4ef5bdd
+	at CreateAlertTest.DeleteAlertSuccessfully(CreateAlertTest.java:38)
+
+ModifyAlertSuccessfully(CreateAlertTest)  Time elapsed: 46.152 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (7ebe402a4fdc0650620f442110818c1f)] -> id: lb_alert_close_success] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:33087}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 7ebe402a4fdc0650620f4421108...}
+Session ID: 7ebe402a4fdc0650620f442110818c1f
+	at CreateAlertTest.ModifyAlertSuccessfully(CreateAlertTest.java:55)
+

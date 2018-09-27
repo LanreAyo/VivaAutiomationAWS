@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,642.082" tests="50" errors="0" skipped="0" failures="13">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton/target/test-classes:/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton/target/classes:/Users/lanre.ayobamidele/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lanre.ayobamidele/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lanre.ayobamidele/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/lanre.ayobamidele/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lanre.ayobamidele/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/lanre.ayobamidele/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/lanre.ayobamidele/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/rest-assured/3.1.1/rest-assured-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lanre.ayobamidele/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/lanre.ayobamidele/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/json-path/3.1.1/json-path-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/rest-assured-common/3.1.1/rest-assured-common-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/xml-path/3.1.1/xml-path-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/lanre.ayobamidele/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/lanre.ayobamidele/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.0/maven-shared-utils-3.2.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton/target/surefire/surefirebooter3410182263984193403.jar /Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton/target/surefire 2018-09-27T09-43-22_586-jvmRun1 surefire14801661163798291364tmp surefire_017762004638531272508tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton/target/test-classes:/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton/target/classes:/Users/lanre.ayobamidele/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/lanre.ayobamidele/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lanre.ayobamidele/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/lanre.ayobamidele/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/lanre.ayobamidele/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/lanre.ayobamidele/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/lanre.ayobamidele/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/lanre.ayobamidele/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/rest-assured/3.1.1/rest-assured-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/groovy/groovy/2.4.12/groovy-2.4.12.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/groovy/groovy-xml/2.4.12/groovy-xml-2.4.12.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/httpcomponents/httpmime/4.5.1/httpmime-4.5.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lanre.ayobamidele/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/Users/lanre.ayobamidele/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/json-path/3.1.1/json-path-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/codehaus/groovy/groovy-json/2.4.12/groovy-json-2.4.12.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/rest-assured-common/3.1.1/rest-assured-common-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/io/rest-assured/xml-path/3.1.1/xml-path-3.1.1.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/lanre.ayobamidele/.m2/repository/javax/xml/bind/jaxb-api/2.2.12/jaxb-api-2.2.12.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/Users/lanre.ayobamidele/.m2/repository/ru/yandex/qatools/ashot/ashot/1.5.4/ashot-1.5.4.jar:/Users/lanre.ayobamidele/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.0/maven-shared-utils-3.2.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/lanre.ayobamidele/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/lanre.ayobamidele"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-04-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton/target/surefire/surefirebooter3410182263984193403.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="10.0.1+10"/>
+    <property name="user.name" value="lanre.ayobamidele"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="/Users/lanre.ayobamidele/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/j6/3z8x5y996dz0m617yw0fhqgr0000gp/T/"/>
+    <property name="java.version" value="10.0.1"/>
+    <property name="user.dir" value="/Users/lanre.ayobamidele/Desktop/Screenshots/vivaautomaton"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/lanre.ayobamidele/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.1+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="54.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="alertPageScreenshot" classname="ScreenshotTest" time="13.044"/>
+  <testcase name="loginPageScreenshot" classname="ScreenshotTest" time="5.078"/>
+  <testcase name="myAdsPageScreenshot" classname="ScreenshotTest" time="5.139"/>
+  <testcase name="myDetailsPageScreenshot" classname="ScreenshotTest" time="13.382"/>
+  <testcase name="MakeSuccessfulPayment" classname="PaymentPageTest" time="84.648">
+    <failure message="Expected condition failed: waiting for presence of element located by: By.cssSelector: input[value=&apos;Go to your account&apos;] (tried for 20 second(s) with 5 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: input[value='Go to your account'] (tried for 20 second(s) with 5 milliseconds interval)
+	at PaymentPageTest.MakeSuccessfulPayment(PaymentPageTest.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.cssSelector: input[value='Go to your account']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: driver.version: unknown
+	at PaymentPageTest.MakeSuccessfulPayment(PaymentPageTest.java:27)
+</failure>
+    <system-out><![CDATA[this is after
+this is before
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2018 9:44:46 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 27, 2018 9:45:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="CreateAValidAdAdultDating" classname="AdPostTest" time="20.404"/>
+  <testcase name="UnableToCreateAnAdWithMissingPostcode" classname="AdPostTest" time="12.534"/>
+  <testcase name="UnableToCreateAnAdWithMissingTitle" classname="AdPostTest" time="17.284"/>
+  <testcase name="GetHealth" classname="VerificationTest" time="10.664"/>
+  <testcase name="GetJwtDecode" classname="VerificationTest" time="1.52"/>
+  <testcase name="GetJwtEncode" classname="VerificationTest" time="0.334"/>
+  <testcase name="GetRoot" classname="VerificationTest" time="0.258"/>
+  <testcase name="GetUserStatusNotFound" classname="VerificationTest" time="0.546">
+    <failure message="expected [200] but found [403]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [403]
+	at VerificationTest.GetUserStatusNotFound(VerificationTest.java:124)
+</failure>
+  </testcase>
+  <testcase name="GetUserStatusPending" classname="VerificationTest" time="10.479"/>
+  <testcase name="GetUserStatus_CountryMissing" classname="VerificationTest" time="0.897">
+    <failure message="expected [400] but found [403]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.GetUserStatus_CountryMissing(VerificationTest.java:102)
+</failure>
+  </testcase>
+  <testcase name="SetUserInvalid_MissingStatus" classname="VerificationTest" time="0.561">
+    <failure message="expected [400] but found [403]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.SetUserInvalid_MissingStatus(VerificationTest.java:191)
+</failure>
+  </testcase>
+  <testcase name="SetUserInvalid_MissingToken" classname="VerificationTest" time="0.251">
+    <failure message="expected [400] but found [403]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.SetUserInvalid_MissingToken(VerificationTest.java:206)
+</failure>
+  </testcase>
+  <testcase name="SetUserInvalid_token" classname="VerificationTest" time="0.537">
+    <failure message="expected [400] but found [403]" type="java.lang.AssertionError">java.lang.AssertionError: expected [400] but found [403]
+	at VerificationTest.SetUserInvalid_token(VerificationTest.java:228)
+</failure>
+  </testcase>
+  <testcase name="SetUserStatus" classname="VerificationTest" time="0.533">
+    <failure message="expected [200] but found [403]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [403]
+	at VerificationTest.SetUserStatus(VerificationTest.java:170)
+</failure>
+  </testcase>
+  <testcase name="logInWithARegisteredAccount" classname="LoginTest" time="21.25">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;vs-lon-mac39.erm.dm-companies.com&apos;, ip: &apos;192.168.23.36&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43257}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: a6995bfd2bbe01dcc403ed7b1a1...}&#10;Session ID: a6995bfd2bbe01dcc403ed7b1a1a9ec0&#10;*** Element info: {Using=id, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:43257}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: a6995bfd2bbe01dcc403ed7b1a1...}
+Session ID: a6995bfd2bbe01dcc403ed7b1a1a9ec0
+*** Element info: {Using=id, value=email}
+	at LoginTest.logInWithARegisteredAccount(LoginTest.java:40)
+</failure>
+    <system-out><![CDATA[this is before
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2018 9:48:44 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 27, 2018 9:49:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="loginPageLoadsCorrectly" classname="LoginTest" time="3.04"/>
+  <testcase name="resetPasswordViaMyAccount" classname="LoginTest" time="12.281"/>
+  <testcase name="unableToLogInWithBlankFields" classname="LoginTest" time="3.182"/>
+  <testcase name="unableToLogInWithIncorrectPassword" classname="LoginTest" time="11.393"/>
+  <testcase name="unableToLogInWithUnregisteredAccount" classname="LoginTest" time="12.237"/>
+  <testcase name="unableToLogInWithoutAPassword" classname="LoginTest" time="5.804"/>
+  <testcase name="unableToLogInWithoutAnEmail" classname="LoginTest" time="3.964"/>
+  <testcase name="createAValidIndividualAccount" classname="CreateAccountTest" time="6.616"/>
+  <testcase name="createAValidProfessionalAccount" classname="CreateAccountTest" time="17.891"/>
+  <testcase name="registerForYourFreeAccount" classname="CreateAccountTest" time="33.41"/>
+  <testcase name="unableToCreateAnAccountWithAnInvalidUsername" classname="CreateAccountTest" time="11.997"/>
+  <testcase name="unableToCreateAnAccountWithInvalidEmailAddress" classname="CreateAccountTest" time="5.379"/>
+  <testcase name="unableToCreateAnAccountWithMissingCompanyName" classname="CreateAccountTest" time="19.401"/>
+  <testcase name="unableToCreateAnAccountWithMissingFullAddress" classname="CreateAccountTest" time="12.208"/>
+  <testcase name="unableToCreateAnAccountWithMissingPassword" classname="CreateAccountTest" time="18.018"/>
+  <testcase name="unableToCreateAnAccountWithMissingUsername" classname="CreateAccountTest" time="8.482"/>
+  <testcase name="unableToCreateAnAccountWithNoData" classname="CreateAccountTest" time="12.931"/>
+  <testcase name="unableToCreateAnAccountWithNoEmail" classname="CreateAccountTest" time="12.887"/>
+  <testcase name="unableToCreateAnAccountWithRegisteredEmailAddress" classname="CreateAccountTest" time="13.649"/>
+  <testcase name="loginPageLoadsCorrectly" classname="LiveLoginTest" time="4.58"/>
+  <testcase name="ChangeEmailAddressForAccount" classname="MyAccountTest" time="62.912"/>
+  <testcase name="PopulateIndividualProfileFields" classname="MyAccountTest" time="21.87"/>
+  <testcase name="PopulateProfessionalProfileFields" classname="MyAccountTest" time="14.79">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;company_name&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;vs-lon-mac39.erm.dm-companies.com&apos;, ip: &apos;192.168.23.36&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:44981}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 4de4d01a3fb7e5c0de38f7f22a5...}&#10;Session ID: 4de4d01a3fb7e5c0de38f7f22a5623ab&#10;*** Element info: {Using=name, value=company_name}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"name","selector":"company_name"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:44981}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 4de4d01a3fb7e5c0de38f7f22a5...}
+Session ID: 4de4d01a3fb7e5c0de38f7f22a5623ab
+*** Element info: {Using=name, value=company_name}
+	at MyAccountTest.PopulateProfessionalProfileFields(MyAccountTest.java:67)
+</failure>
+    <system-out><![CDATA[this is after
+this is before
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2018 10:04:38 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 27, 2018 10:04:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnableToUpdateAProfessionalProfileWithoutRequiredFields" classname="MyAccountTest" time="25.862">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;vs-lon-mac39.erm.dm-companies.com&apos;, ip: &apos;192.168.23.36&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:45629}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: b03eacb1ef23e9634fa6bff798b...}&#10;Session ID: b03eacb1ef23e9634fa6bff798bc3b33&#10;*** Element info: {Using=id, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:45629}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: b03eacb1ef23e9634fa6bff798b...}
+Session ID: b03eacb1ef23e9634fa6bff798bc3b33
+*** Element info: {Using=id, value=email}
+	at MyAccountTest.UnableToUpdateAProfessionalProfileWithoutRequiredFields(MyAccountTest.java:141)
+</failure>
+    <system-out><![CDATA[this is after
+this is before
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2018 10:05:04 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 27, 2018 10:05:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnableToUpdateAnIndividualProfileWithoutRequiredFields" classname="MyAccountTest" time="27.649">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;email&quot;}&#10;  (Session info: chrome=69.0.3497.100)&#10;  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;vs-lon-mac39.erm.dm-companies.com&apos;, ip: &apos;192.168.23.36&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:45451}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 3d1bf1a00ca9cf22d69220fc0c1...}&#10;Session ID: 3d1bf1a00ca9cf22d69220fc0c1ad919&#10;*** Element info: {Using=id, value=email}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"id","selector":"email"}
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:45451}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 3d1bf1a00ca9cf22d69220fc0c1...}
+Session ID: 3d1bf1a00ca9cf22d69220fc0c1ad919
+*** Element info: {Using=id, value=email}
+	at MyAccountTest.UnableToUpdateAnIndividualProfileWithoutRequiredFields(MyAccountTest.java:106)
+</failure>
+    <system-out><![CDATA[this is after
+this is before
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2018 10:05:51 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 27, 2018 10:06:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="UnableToUpdateTheEmailFieldWithAnInvalidEmail" classname="MyAccountTest" time="20.148"/>
+  <testcase name="UnableToUpdateTheURLFieldWithAnInvalidURL" classname="MyAccountTest" time="12.836"/>
+  <testcase name="CreateAlertSuccessfully" classname="CreateAlertTest" time="16.137"/>
+  <testcase name="DeleteAlertSuccessfully" classname="CreateAlertTest" time="26.385">
+    <failure message="Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (849fa78cae8536b31fb6f318b4ef5bdd)] -&gt; id: lb_alert_close_success] (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;vs-lon-mac39.erm.dm-companies.com&apos;, ip: &apos;192.168.23.36&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:37351}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 849fa78cae8536b31fb6f318b4e...}&#10;Session ID: 849fa78cae8536b31fb6f318b4ef5bdd" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (849fa78cae8536b31fb6f318b4ef5bdd)] -> id: lb_alert_close_success] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:37351}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 849fa78cae8536b31fb6f318b4e...}
+Session ID: 849fa78cae8536b31fb6f318b4ef5bdd
+	at CreateAlertTest.DeleteAlertSuccessfully(CreateAlertTest.java:38)
+</failure>
+    <system-out><![CDATA[this is after
+this is before
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2018 10:08:35 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 27, 2018 10:08:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="ModifyAlertSuccessfully" classname="CreateAlertTest" time="46.152">
+    <failure message="Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (7ebe402a4fdc0650620f442110818c1f)] -&gt; id: lb_alert_close_success] (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;vs-lon-mac39.erm.dm-companies.com&apos;, ip: &apos;192.168.23.36&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.5&apos;, java.version: &apos;10.0.1&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:33087}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 7ebe402a4fdc0650620f4421108...}&#10;Session ID: 7ebe402a4fdc0650620f442110818c1f" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (7ebe402a4fdc0650620f442110818c1f)] -> id: lb_alert_close_success] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'vs-lon-mac39.erm.dm-companies.com', ip: '192.168.23.36', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.5', java.version: '10.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591071 (0b695ff80972cc..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:33087}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true, webdriver.remote.sessionid: 7ebe402a4fdc0650620f4421108...}
+Session ID: 7ebe402a4fdc0650620f442110818c1f
+	at CreateAlertTest.ModifyAlertSuccessfully(CreateAlertTest.java:55)
+</failure>
+    <system-out><![CDATA[this is after
+this is before
+]]></system-out>
+    <system-err><![CDATA[Sep 27, 2018 10:09:23 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Sep 27, 2018 10:09:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

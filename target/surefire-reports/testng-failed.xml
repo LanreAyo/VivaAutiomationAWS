@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="VerificationTest">
+        <methods>
+          <include name="GetUserStatusNotFound"/>
+          <include name="SetUserStatus"/>
+          <include name="SetUserInvalid_token"/>
+          <include name="SetUserInvalid_MissingStatus"/>
+          <include name="SetUserInvalid_MissingToken"/>
+          <include name="GetUserStatus_CountryMissing"/>
+        </methods>
+      </class> <!-- VerificationTest -->
+      <class name="CreateAlertTest">
+        <methods>
+          <include name="ModifyAlertSuccessfully"/>
+          <include name="tearDown"/>
+          <include name="initialise"/>
+          <include name="DeleteAlertSuccessfully"/>
+        </methods>
+      </class> <!-- CreateAlertTest -->
+      <class name="MyAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="PopulateProfessionalProfileFields"/>
+          <include name="UnableToUpdateAProfessionalProfileWithoutRequiredFields"/>
+          <include name="initialise"/>
+          <include name="UnableToUpdateAnIndividualProfileWithoutRequiredFields"/>
+        </methods>
+      </class> <!-- MyAccountTest -->
+      <class name="PaymentPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialise"/>
+          <include name="MakeSuccessfulPayment"/>
+        </methods>
+      </class> <!-- PaymentPageTest -->
+      <class name="LoginTest">
+        <methods>
+          <include name="logInWithARegisteredAccount"/>
+          <include name="tearDown"/>
+          <include name="initialise"/>
+        </methods>
+      </class> <!-- LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
